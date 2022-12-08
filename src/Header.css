@@ -1,0 +1,14 @@
+.header{
+    border: 1px solid black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.header_logo{
+    width:100px;
+    position: relative;
+    top: 5px;;
+}
