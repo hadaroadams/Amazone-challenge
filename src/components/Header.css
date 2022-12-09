@@ -45,6 +45,8 @@ span{
     font-size: 12px;
 }
 .header_nav{
+    position: relative;
+    right: 20px;
     width: 39%;
     display: flex;
     justify-content:flex-end;

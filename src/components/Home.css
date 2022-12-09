@@ -1,0 +1,15 @@
+
+.home_image{
+    height: 300px;;
+    width: 100%;
+    margin-bottom: -50px;
+    z-index: -1;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(172, 164, 164, 0));
+}
+.product_row{
+    display:flex;
+    margin-top:-15px;
+}
+.Product_box{
+    padding-bottom: 100px ;
+}
