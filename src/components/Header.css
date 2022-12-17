@@ -46,7 +46,7 @@ span{
 }
 .header_nav{
     position: relative;
-    right: 20px;
+    right:20px;
     width: 39%;
     display: flex;
     justify-content:flex-end;
