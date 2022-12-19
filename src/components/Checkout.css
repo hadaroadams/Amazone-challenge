@@ -1,3 +1,24 @@
-h1{
-    color:red;
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+.checkout_left{
+    width:65%;
+}
+.checkout_ad{
+    width:90%;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.checkout_tittle{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+
+}
+.checkout_right{
+    width: 30%;
 }
