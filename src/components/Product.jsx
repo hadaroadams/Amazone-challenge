@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Product.css';
 import { useStateValue } from './StateProvider';
 
+export  const statement= 'add_to_basket '
+
 function Product({ id,title,price,image,rate}) {
-  const [state,dispatch] = useStateValue()
-  const addToBasket =() =>{
+  const [{basket},dispatch] = useStateValue();
+        console.log('This is the basket',basket)
+  const addToBasket = () => { 
     //dispatch
     dispatch({
-      type:'ADD_TO_BASKET',
+      type:statement,
       item:{
         id:id,
         title:title,
