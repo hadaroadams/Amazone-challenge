@@ -10,14 +10,14 @@ function Home() {
         <div className="product_row">
           <Product
           id={101210} 
-          tittle="The Hover Board"
+          title={"The Hover Board"}
           price={200.43} 
           rate={3} 
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE5Jxk7tzPBIOSXUCoZXReGVJL-56OV9EazQ&usqp=CAU"
            classsName="Product_box"/>
           <Product 
           id={120029} 
-          tittle="Fridge"
+          title={"Fridge"}
           price={694.45} 
           rate={5} 
           image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9lG7PPx743vJXirKL-GHUIJKJJ1Of9g2xPw&usqp=CAU"
@@ -26,7 +26,7 @@ function Home() {
         <div className="product_row">
         <Product
         id={1020293}
-         tittle="Digital Tv"
+         title="Digital Tv"
          price={500.56} 
          rate={4} 
          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE-rl4ZitBW5rUkstTMbH2rQWilzvnhTKCSQ&usqp=CAU"
@@ -34,7 +34,7 @@ function Home() {
         />
         <Product
         id={10220292}
-         tittle="Washing Machine"
+         title="Washing Machine"
          price={1005.76} 
          rate={3} 
          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYWVEJ3A0Mu9K_AgyShA_TL-BK2ZH9pIZVQ&usqp=CAU"
@@ -42,7 +42,7 @@ function Home() {
         />
         <Product
         id={1029931}
-         tittle="Hover Board"
+         title={"Hover Board"}
          price={200.43} 
          rate={3} 
          image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRW-ib2hplalY4EOVJfyVmYLjK6AwvEsY01w&usqp=CAU"
@@ -52,7 +52,7 @@ function Home() {
         <div className="product_row">
           <Product
           id={1391033}
-           tittle="Play station 5"
+           title={"Play station 5"}
            price={600.47} 
            rate={5} 
            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpeMXYF30QxD7KqDNcAymGIyLPgxAbxBoGw&usqp=CAU"

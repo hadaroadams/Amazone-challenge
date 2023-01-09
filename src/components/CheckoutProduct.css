@@ -1,0 +1,23 @@
+.checkoutProduct{
+    display: flex;
+    width:100% ;
+}
+.checkoutProduct_image{
+    width:40%;
+}
+.leftcheckout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.basketButton{
+    background-color: rgb(255, 197, 89);
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 3px 0px;
+}
+.ratingCheckout{
+    display: flex;
+    flex-direction: row;
+}
