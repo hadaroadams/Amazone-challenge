@@ -14,7 +14,7 @@ function Checkout() {
         <div>
         <h2 className='checkout_tittle' >Your shopping Basket</h2 >
         {basket.map((item) =>
-        <CheckoutProduct price={item.price} rating={item.rate} image={item.image} title={item.title}/>
+        <CheckoutProduct id={item.id} price={item.price} rating={item.rate} image={item.image} title={item.title}/>
         )}
         {/*check out product*/}
         </div>
